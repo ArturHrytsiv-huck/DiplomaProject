@@ -8,6 +8,7 @@ public class DogController : MonoBehaviour
     [SerializeField] float turnSmoothtime = 0.1f;
 
     public CharacterController controller;
+    public Transform cam;
 
     private float turnsmoothVelocity;
     private Animator dogAnimation;
