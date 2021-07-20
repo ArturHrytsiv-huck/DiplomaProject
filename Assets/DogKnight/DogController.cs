@@ -23,16 +23,22 @@ public class DogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        bool isRun = false;
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
         if (direction.magnitude >= 0.1f)
         {
-            dogAnimation.SetTrigger("Run");
+            isRun = true;
+            dogAnimation.SetBool("Run", isRun);
             float TargetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg;
             float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, TargetAngle, ref turnsmoothVelocity, turnSmoothtime);
             transform.rotation = Quaternion.Euler(0f, TargetAngle, 0f);
             controller.Move(direction * speed * Time.deltaTime);
+        }
+        else 
+        {
+            isRun = false;
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
