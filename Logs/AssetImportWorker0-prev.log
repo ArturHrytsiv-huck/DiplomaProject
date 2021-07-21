@@ -15,11 +15,11 @@ D:/Game dev/My_Diploma_Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61916
+61127
 Successfully changed project path to: D:/Game dev/My_Diploma_Project
 D:/Game dev/My_Diploma_Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 432.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path D:/Game dev/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,99 +35,592 @@ Initialize mono
 Mono path[0] = 'D:/Game dev/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Game dev/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Game dev/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Game dev/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003043 seconds.
+Registered in 0.000832 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.87 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.872 seconds
+- Completed reload, in  0.934 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011539 seconds.
+Registered in 0.002504 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.415 seconds
+- Completed reload, in  1.030 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1534 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.6 MB.
-System memory in use after: 70.6 MB.
+Unloading 1536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 71.8 MB.
+System memory in use after: 71.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1973.
-Total: 7.249400 ms (FindLiveObjects: 0.262000 ms CreateObjectMapping: 0.070800 ms MarkObjects: 6.785100 ms  DeleteObjects: 0.130000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/DogKnight/DogController.cs
-  artifactKey: Guid(5cc4c690197c44145a82fc132c50f81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DogKnight/DogController.cs using Guid(5cc4c690197c44145a82fc132c50f81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970e4345806c59446309a8cfadecea94') in 0.131985 seconds
-  Import took 0.140340 seconds .
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1975.
+Total: 2.178500 ms (FindLiveObjects: 0.171000 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.835600 ms  DeleteObjects: 0.121200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.852676 seconds.
-  path: Assets/DogKnight/DogController.cs
-  artifactKey: Guid(5cc4c690197c44145a82fc132c50f81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DogKnight/DogController.cs using Guid(5cc4c690197c44145a82fc132c50f81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedc89d0db189ad3a6de9e8336ff045f') in 0.005955 seconds
-  Import took 0.031257 seconds .
+  path: Assets/adventure-starter-pack
+  artifactKey: Guid(42d3423fab698914c82932fbe41d489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/adventure-starter-pack using Guid(42d3423fab698914c82932fbe41d489e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '228733a38a607f8895a59e2925e6acc8') in 0.078470 seconds
+  Import took 0.081312 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.143186 seconds.
-  path: Assets/DogKnight/DogController.cs
-  artifactKey: Guid(5cc4c690197c44145a82fc132c50f81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DogKnight/DogController.cs using Guid(5cc4c690197c44145a82fc132c50f81d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aedc89d0db189ad3a6de9e8336ff045f') in 0.023025 seconds
-  Import took 0.060713 seconds .
+  Time since last request: 2.071630 seconds.
+  path: Assets/Adventure Game Starter Pack
+  artifactKey: Guid(1f9b7ea212855764694d73e2da5801cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Game Starter Pack using Guid(1f9b7ea212855764694d73e2da5801cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71679e5755ebe1bf1e44972791265eb') in 0.001637 seconds
+  Import took 0.005385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Adventure Game Starter Pack
+  artifactKey: Guid(1f9b7ea212855764694d73e2da5801cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adventure Game Starter Pack using Guid(1f9b7ea212855764694d73e2da5801cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71679e5755ebe1bf1e44972791265eb') in 0.111683 seconds
+  Import took 0.115033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.586027 seconds.
+  path: Assets/Prefabs/Campfire.prefab
+  artifactKey: Guid(7f9b5b78e2790364d97cce2f81d02168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Campfire.prefab using Guid(7f9b5b78e2790364d97cce2f81d02168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb069acda9a2a69ac6d085e387e3cc12') in 0.245498 seconds
+  Import took 0.249113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.619195 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35721abaf6147df1fc52b0651d3a2294') in 0.002271 seconds
+  Import took 0.005446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000730 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35721abaf6147df1fc52b0651d3a2294') in 0.038474 seconds
+  Import took 0.042018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.194607 seconds.
+  path: Assets/DacingEyebrows/deb_Goblin01/Animation
+  artifactKey: Guid(52df37c1cceb39847b655fb10e4c9a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DacingEyebrows/deb_Goblin01/Animation using Guid(52df37c1cceb39847b655fb10e4c9a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5f508bdfed62a3d2c3288fc9186e4f') in 0.001589 seconds
+  Import took 0.005345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/DacingEyebrows/deb_Goblin01/Animation
+  artifactKey: Guid(52df37c1cceb39847b655fb10e4c9a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DacingEyebrows/deb_Goblin01/Animation using Guid(52df37c1cceb39847b655fb10e4c9a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5f508bdfed62a3d2c3288fc9186e4f') in 0.001184 seconds
+  Import took 0.005132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.129965 seconds.
+  path: Assets/DacingEyebrows
+  artifactKey: Guid(255d8d3d63481674a896cd8422e4e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DacingEyebrows using Guid(255d8d3d63481674a896cd8422e4e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b75c76c0acec178968f218d213ad37') in 0.001741 seconds
+  Import took 0.005714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000867 seconds.
+  path: Assets/DacingEyebrows
+  artifactKey: Guid(255d8d3d63481674a896cd8422e4e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DacingEyebrows using Guid(255d8d3d63481674a896cd8422e4e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b75c76c0acec178968f218d213ad37') in 0.037279 seconds
+  Import took 0.041080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.928816 seconds.
+  path: Assets/Goblin
+  artifactKey: Guid(255d8d3d63481674a896cd8422e4e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Goblin using Guid(255d8d3d63481674a896cd8422e4e97d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adf8b68d5296387d99d636d4f58720f') in 0.001234 seconds
+  Import took 0.004441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 778.571134 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS
+  artifactKey: Guid(c2ed46dd678d847c8b70d779a6640777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS using Guid(c2ed46dd678d847c8b70d779a6640777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08209057d61ab5b5ebbd2da955e2cff') in 0.003430 seconds
+  Import took 0.010018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002166 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS
+  artifactKey: Guid(c2ed46dd678d847c8b70d779a6640777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS using Guid(c2ed46dd678d847c8b70d779a6640777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a08209057d61ab5b5ebbd2da955e2cff') in 0.002861 seconds
+  Import took 0.007339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.275029 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes
+  artifactKey: Guid(3c1bd279300554e568af0c942187bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes using Guid(3c1bd279300554e568af0c942187bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2850feec4c7826a49a4a43df73b56df3') in 0.001574 seconds
+  Import took 0.005181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001570 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes
+  artifactKey: Guid(3c1bd279300554e568af0c942187bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes using Guid(3c1bd279300554e568af0c942187bd97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2850feec4c7826a49a4a43df73b56df3') in 0.002162 seconds
+  Import took 0.006913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.502031 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner A.unity
+  artifactKey: Guid(f1ac2c9651dde43188859197f7f90c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner A.unity using Guid(f1ac2c9651dde43188859197f7f90c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b550e45f3d80589abaf7467ee52e6c98') in 0.002456 seconds
+  Import took 0.006233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001424 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner A.unity
+  artifactKey: Guid(f1ac2c9651dde43188859197f7f90c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner A.unity using Guid(f1ac2c9651dde43188859197f7f90c5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b550e45f3d80589abaf7467ee52e6c98') in 0.003870 seconds
+  Import took 0.007277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.885543 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner B.unity
+  artifactKey: Guid(c8d003fbc7dd54943aabaa4f1b82ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner B.unity using Guid(c8d003fbc7dd54943aabaa4f1b82ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbd8c073457bafffdcbeef45918c6db') in 0.001519 seconds
+  Import took 0.005863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner B.unity
+  artifactKey: Guid(c8d003fbc7dd54943aabaa4f1b82ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner B.unity using Guid(c8d003fbc7dd54943aabaa4f1b82ce53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cbd8c073457bafffdcbeef45918c6db') in 0.001719 seconds
+  Import took 0.005494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.768117 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner C.unity
+  artifactKey: Guid(d69012f176402446983c4573545424c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner C.unity using Guid(d69012f176402446983c4573545424c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd727c7c361e675a7cd4128e592f6ad') in 0.001642 seconds
+  Import took 0.005080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001344 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner C.unity
+  artifactKey: Guid(d69012f176402446983c4573545424c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner C.unity using Guid(d69012f176402446983c4573545424c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd727c7c361e675a7cd4128e592f6ad') in 0.002091 seconds
+  Import took 0.005283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.583648 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner D.unity
+  artifactKey: Guid(f3cb9ea13161f4f03b8f9033204d6220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner D.unity using Guid(f3cb9ea13161f4f03b8f9033204d6220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75411a4655fd2623293092935d4f2437') in 0.002126 seconds
+  Import took 0.006288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001822 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner D.unity
+  artifactKey: Guid(f3cb9ea13161f4f03b8f9033204d6220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner D.unity using Guid(f3cb9ea13161f4f03b8f9033204d6220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75411a4655fd2623293092935d4f2437') in 0.001978 seconds
+  Import took 0.005027 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.548872 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner E.unity
+  artifactKey: Guid(07bfb433afa084b49804d9bb771980e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Banner E.unity using Guid(07bfb433afa084b49804d9bb771980e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80104a8d34e9efae034cf8ffaf5c9da0') in 0.001657 seconds
+  Import took 0.053103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.784192 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Bonfires.unity
+  artifactKey: Guid(89ebddb706ae4477eb99eff144575c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Bonfires.unity using Guid(89ebddb706ae4477eb99eff144575c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcc1b14136ab07c204b950f0f19d7a8') in 0.001828 seconds
+  Import took 0.070423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.144476 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Lets Cook.unity
+  artifactKey: Guid(cf583010be6ed47aa926e0b915fdeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Lets Cook.unity using Guid(cf583010be6ed47aa926e0b915fdeb60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c38bdad8f9f7db99c539416090ad434') in 0.005900 seconds
+  Import took 0.013617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 132.492136 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Materials/Glow_MAT.mat
+  artifactKey: Guid(047412d72ceb642e9be4316cc112ff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Materials/Glow_MAT.mat using Guid(047412d72ceb642e9be4316cc112ff5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbcae1e83da445ec0a85ba6243d8f6f') in 0.304070 seconds
+  Import took 0.308169 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008017 seconds.
+Registered in 0.042186 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.058 seconds
+- Completed reload, in  1.357 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.1 MB.
+System memory in use after: 75.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2018.
+Total: 3.033400 ms (FindLiveObjects: 0.202400 ms CreateObjectMapping: 0.075800 ms MarkObjects: 2.656000 ms  DeleteObjects: 0.097800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.938085 seconds.
+  path: Assets/Prefabs/Bonfire_C_Small_Fire.prefab
+  artifactKey: Guid(09c034499533f094b82b5fb13fdc8d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bonfire_C_Small_Fire.prefab using Guid(09c034499533f094b82b5fb13fdc8d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98275279952052c28eb131c38357bf5b') in 0.076980 seconds
+  Import took 0.080540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.181103 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Medieval Well.unity
+  artifactKey: Guid(d497db631a1834e78b79e59fa348fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Medieval Well.unity using Guid(d497db631a1834e78b79e59fa348fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d91c06e00e8f36dd5443f4faf59e58') in 0.002171 seconds
+  Import took 0.006105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000764 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Medieval Well.unity
+  artifactKey: Guid(d497db631a1834e78b79e59fa348fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Medieval Well.unity using Guid(d497db631a1834e78b79e59fa348fe7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d91c06e00e8f36dd5443f4faf59e58') in 0.002083 seconds
+  Import took 0.005527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.265874 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Metal Wall.unity
+  artifactKey: Guid(2ac30c267f9c442139fc797bdbbd5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Metal Wall.unity using Guid(2ac30c267f9c442139fc797bdbbd5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a33e94b073090c063de45a883d02193') in 0.001828 seconds
+  Import took 0.031431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.319758 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Overview01.unity
+  artifactKey: Guid(4cc0c491a5b004a28ba56b45d41c8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Overview01.unity using Guid(4cc0c491a5b004a28ba56b45d41c8dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2266686e5da670d10fc02a6114632715') in 0.003112 seconds
+  Import took 0.010063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.698275 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Overview02.unity
+  artifactKey: Guid(d85a16c23e43b4f4db7316b1798b4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Overview02.unity using Guid(d85a16c23e43b4f4db7316b1798b4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd06993d357c7b2f8dd98fea151b742') in 0.002559 seconds
+  Import took 0.006453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002143 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Overview02.unity
+  artifactKey: Guid(d85a16c23e43b4f4db7316b1798b4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Overview02.unity using Guid(d85a16c23e43b4f4db7316b1798b4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd06993d357c7b2f8dd98fea151b742') in 0.001980 seconds
+  Import took 0.005121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.021861 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Quiet place.unity
+  artifactKey: Guid(63a269845d2df40f69c7d612913061e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Quiet place.unity using Guid(63a269845d2df40f69c7d612913061e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b1401c6f6a4a297f2596600c8d0c72') in 0.002631 seconds
+  Import took 0.038685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.004418 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Table Wall.unity
+  artifactKey: Guid(6463670e352984c1a809ac13d494784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Table Wall.unity using Guid(6463670e352984c1a809ac13d494784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8616d87a0241e6c30ee315b9db3f5f') in 0.001920 seconds
+  Import took 0.005724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001553 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Table Wall.unity
+  artifactKey: Guid(6463670e352984c1a809ac13d494784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Table Wall.unity using Guid(6463670e352984c1a809ac13d494784b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f8616d87a0241e6c30ee315b9db3f5f') in 0.002437 seconds
+  Import took 0.006156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.659527 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Thorn.unity
+  artifactKey: Guid(084ed40e9dd2447e995dc9cdadc164f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Thorn.unity using Guid(084ed40e9dd2447e995dc9cdadc164f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3d792f84136ab3748daf3e5026f7b9') in 0.001926 seconds
+  Import took 0.004894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.856613 seconds.
+  path: Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Wall Rock.unity
+  artifactKey: Guid(a4c35d1dd596b4801bd8d2fdaf41b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Scenes/Wall Rock.unity using Guid(a4c35d1dd596b4801bd8d2fdaf41b8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7babb2c5a075dc4714d6c12a449bca69') in 0.001497 seconds
+  Import took 0.092261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.390166 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fda241607afc030837fe87d2120ebee') in 0.001686 seconds
+  Import took 0.004956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002422 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fda241607afc030837fe87d2120ebee') in 0.001758 seconds
+  Import took 0.004975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.4 MB.
-System memory in use after: 70.4 MB.
+Unloading 1529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1976.
-Total: 4.393800 ms (FindLiveObjects: 0.163900 ms CreateObjectMapping: 0.053100 ms MarkObjects: 4.113000 ms  DeleteObjects: 0.062800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2023.
+Total: 1.969100 ms (FindLiveObjects: 0.148600 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.634400 ms  DeleteObjects: 0.138000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002405 seconds.
+Registered in 0.002366 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.198 seconds
+- Completed reload, in  1.102 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1527 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.4 MB.
-System memory in use after: 70.5 MB.
+Unloading 1529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 75.3 MB.
+System memory in use after: 75.4 MB.
 
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1979.
-Total: 3.653000 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.060800 ms MarkObjects: 3.325300 ms  DeleteObjects: 0.070000 ms)
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2026.
+Total: 2.479800 ms (FindLiveObjects: 0.164100 ms CreateObjectMapping: 0.042800 ms MarkObjects: 2.146200 ms  DeleteObjects: 0.125900 ms)
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 1424.027740 seconds.
+  path: Assets/Prefabs/SpawnPoint.prefab
+  artifactKey: Guid(37f417434f4478f43a12b7819ae9124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnPoint.prefab using Guid(37f417434f4478f43a12b7819ae9124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8697b105dbda47d60641c8057196bd1f') in 0.059708 seconds
+  Import took 0.062891 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.380530 seconds.
+  path: Assets/Prefabs/SpawnPoint.prefab
+  artifactKey: Guid(37f417434f4478f43a12b7819ae9124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnPoint.prefab using Guid(37f417434f4478f43a12b7819ae9124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ad0049312348e1cdb5147927a5bb16') in 0.010058 seconds
+  Import took 0.013953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026510 seconds.
+  path: Assets/Prefabs/SpawnPoint.prefab
+  artifactKey: Guid(37f417434f4478f43a12b7819ae9124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpawnPoint.prefab using Guid(37f417434f4478f43a12b7819ae9124e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6ad0049312348e1cdb5147927a5bb16') in 0.007073 seconds
+  Import took 0.012783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.904135 seconds.
+  path: Assets/Goblin/deb_Goblin01/Prefab/deb_Goblin01 1.prefab
+  artifactKey: Guid(015c52e399ed8234b8978047d0ebd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Goblin/deb_Goblin01/Prefab/deb_Goblin01 1.prefab using Guid(015c52e399ed8234b8978047d0ebd511) Importer(815301076,1909f56bfc062723c751e8b465ee728b) d3d11: failed to create 2D texture id=105 width=1024 height=1024 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=105 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: failed to create 2D texture id=107 width=1024 height=1024 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=107 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+d3d11: failed to create 2D texture id=109 width=1024 height=1024 mips=1 dxgifmt=28 [D3D error was 887a0005]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 939]
+
+d3d11: failed to create 2D texture shader resource view id=109 [D3D error was 80070057]
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 738]
+
+d3d11: Failed to create 2D texture in GfxDeviceD3D11
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.GameObjectInspector:DoRenderPreview ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Runtime/GfxDevice/d3d11/TexturesD3D11.cpp line 1229]
+
+Received signal SIGSEGV
+Stack trace:
+0x00007ff7d3b8ac8a (Unity) 
+0x00007ff7d3b7fb94 (Unity) 
+0x00007ff7d3b67215 (Unity) 
+0x00007ff7d3b7c5fc (Unity) 
+0x00007ff7d47190d7 (Unity) 
+0x00007ff7d317f3a8 (Unity) 
+0x00007ff7d40a81fc (Unity) 
+0x00007ff7d3fcee40 (Unity) 
+0x00007ff7d3fc4c86 (Unity) 
+0x00007ff7d3fdfb65 (Unity) 
+0x00007ff7d4b62012 (Unity) 
+0x00007ff7d4b254af (Unity) 
+0x00007ff7d4b25a09 (Unity) 
+0x00007ff7d4b257ba (Unity) 
+0x00007ff7d44dad3d ((<unknown>)) 
+0x00007ff7d449db2e ((<unknown>)) 
+0x00007ff7d4499d2f ((<unknown>)) 
+0x00007ff7d3c3dbac ((<unknown>)) 
+0x00007ff7d40840b2 ((<unknown>)) 
+0x00007ff7d41a146c ((<unknown>)) 
+0x00007ff7d3cd0f5c ((<unknown>)) 
+0x00007ff7d3ccf16a ((<unknown>)) 
+0x00007ff7d3d29be4 ((<unknown>)) 
+0x00007ff7d3cf9731 ((<unknown>)) 
+0x00007ff7d3d1032c ((<unknown>)) 
+0x00007ff7d3d104b8 ((<unknown>)) 
+0x00007ff7d3d07756 ((<unknown>)) 
+0x00007ff7d4d88a34 ((<unknown>)) 
+0x0000024eb5a75603 (Mono JIT Code) (wrapper managed-to-native) UnityEngine.Camera:Render (UnityEngine.Camera)
+0x0000024eb5a742fb (Mono JIT Code) UnityEditor.PreviewRenderUtility:Render (bool,bool)
+0x0000024eb3a6cc4b (Mono JIT Code) UnityEditor.GameObjectInspector:DoRenderPreview ()
+0x0000024e92a00dd3 (Mono JIT Code) UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+0x0000024e929ee7a4 (Mono JIT Code) UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+0x0000024e929eeae0 (Mono JIT Code) (wrapper runtime-invoke) <Module>:runtime_invoke_object_object_object_object (object,intptr,intptr,intptr)
+0x00007ffcabaee630 ((<unknown>)) 
+0x00007ffcaba72ac2 ((<unknown>)) 
+0x00007ffcaba7bb1f ((<unknown>)) 
+0x00007ff7d4a94444 ((<unknown>)) 
+0x00007ff7d4a8cd95 ((<unknown>)) 
+0x00007ff7d61c3020 ((<unknown>)) 
+0x00007ff7d61c75ee ((<unknown>)) 
+0x00007ff7d61c7d5c ((<unknown>)) 
+0x00007ff7d61c1a4e ((<unknown>)) 
+0x00007ff7d62b1459 (Unity) 
+0x00007ff7d62b0569 ((<unknown>)) 
+0x00007ff7d62126d8 ((<unknown>)) 
+0x00007ff7d62665bf ((<unknown>)) 
+0x00007ff7d6309522 ((<unknown>)) 
+0x00007ff7d630b680 ((<unknown>)) 
+0x00007ff7d630ee0e ((<unknown>)) 
+0x00007ff7d62924bb ((<unknown>)) 
+0x00007ff7d6292510 ((<unknown>)) 
+0x00007ff7d5783536 ((<unknown>)) 
+0x00007ff7d6106f22 ((<unknown>)) 
+0x00007ff7d7f58e86 ((<unknown>)) 
+0x00007ffcffe67bd4 ((<unknown>)) 
+0x00007ffd0124cee1 ((<unknown>)) 
+

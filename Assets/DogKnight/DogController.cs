@@ -36,9 +36,11 @@ public class DogController : MonoBehaviour
             transform.rotation = Quaternion.Euler(0f, TargetAngle, 0f);
             controller.Move(direction * speed * Time.deltaTime);
         }
-        else 
+        if(!(Input.GetKeyDown(KeyCode.W)) || !(Input.GetKeyDown(KeyCode.S)) || !(Input.GetKeyDown(KeyCode.A)) || !(Input.GetKeyDown(KeyCode.D)))
         {
-            isRun = false;
+            isRun = !isRun;
+            dogAnimation.SetBool("Run", isRun);
+            dogAnimation.SetTrigger("Idle");
         }
         if (Input.GetKeyDown(KeyCode.Mouse0))
         {
