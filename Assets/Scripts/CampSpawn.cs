@@ -13,7 +13,7 @@ public class CampSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(spawnPoint.position);
+        //Debug.Log(spawnPoint.position);
         Vector3 goblinReplace = spawnPoint.position;
         goblinReplace.z += 3;
         goblinReplace.x += 1;
