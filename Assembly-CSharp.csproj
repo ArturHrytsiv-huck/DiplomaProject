@@ -57,10 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DogKnight\DogController.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\HealthComponent.cs" />
     <Compile Include="Assets\Scripts\CampSpawn.cs" />
     <Compile Include="Assets\Scripts\SpawnUnit.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\ItemScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
