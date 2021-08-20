@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,7 +14,7 @@ public class SpawnPoint : MonoBehaviour
         get { return isActive; }
         set { isActive = value; }
     }
-
+    public Action<GameObject> mobBeh;
     private void Awake()
     {
         spawPoint = this.gameObject;

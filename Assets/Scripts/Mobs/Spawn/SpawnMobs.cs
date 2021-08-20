@@ -27,18 +27,18 @@ public class SpawnMobs : MonoBehaviour
             }
             camp.spawnPoints[randSpawnPoint].IsActive = true;
             camp.spawnPoints[randSpawnPoint].spawnedMob = Instantiate(mobToSpawn.PrfabToSpawn(camp.CampLvl), camp.spawnPoints[randSpawnPoint].transform.position, camp.spawnPoints[randSpawnPoint].transform.rotation);
-            camp.spawnPoints[randSpawnPoint].spawnedMob.transform.rotation = LockOnCamp(camp.spawnPoints[randSpawnPoint].spawnedMob.transform);
+            
+            LookOnCamp(camp.spawnPoints[randSpawnPoint].spawnedMob.transform);
             camp.spawnPoints[randSpawnPoint].tag = "Mob";
         }
     }
 
-    private Quaternion LockOnCamp(Transform rotate)
+    private void LookOnCamp(Transform rotate)
     {
-        Vector3 dir = camp.transform.position - transform.position;
+        Vector3 dir = camp.transform.position - rotate.position;
         Quaternion lookRotation = Quaternion.LookRotation(dir);
-        Vector3 rotation = Quaternion.Lerp(rotate.transform.rotation, lookRotation, 10 * Time.deltaTime).eulerAngles;
+        Vector3 rotation = Quaternion.Lerp(rotate.transform.rotation, lookRotation, 100 * Time.deltaTime).eulerAngles;
         rotate.transform.rotation = Quaternion.Euler(0f, rotation.y, 0f);
-        return rotate.transform.rotation;
     }
 
 }

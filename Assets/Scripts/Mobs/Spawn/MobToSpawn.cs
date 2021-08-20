@@ -37,7 +37,16 @@ public class MobToSpawn : MonoBehaviour
         }
         else
         {
-            return ((campLvl - 30) / 5);
+            int amount = 0;
+            for (int i = 1; i < campLvl - 30; i+=5)
+            {
+                amount++;
+            }
+            if(campLvl % 5 != 0)
+            {
+                return ++amount;
+            }
+            return amount;
         }
             
     }

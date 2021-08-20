@@ -29,9 +29,11 @@ public class CampFire : MonoBehaviour
         {
             return;
         }
+
         if(collider.tag == "Mob")
         {
-            EnemyBehaviour enemy = collider.gameObject.GetComponent<EnemyBehaviour>();
+            EnemyBehaviour enemy = collider.GetComponentInParent<EnemyBehaviour>();
+
             enemy.TurnBackToCamp();
         }
     }
