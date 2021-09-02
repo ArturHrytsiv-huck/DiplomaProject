@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,17 +16,26 @@ public class HealthComponent : MonoBehaviour
     {
         get { return isDead; }
     }
+    public Action OnDamageDone;
+
 
     public void TakeDamage(AttackComponent attack)
-    {
-        if (!isDead)
+   {
+        if (IsDead)
         {
-            health -= attack.GiveDamage();
-            if (health <= 0)    
-            {
-                isDead = true;
-            }
+            return;
         }
         
+        health -= attack.GiveDamage();
+        if (health <= 0)
+        {
+            isDead = true;
+        }
+        if ((attack.tag) != "Player")
+        {
+            OnDamageDone.Invoke();
+        }
+        
+
     }
 }

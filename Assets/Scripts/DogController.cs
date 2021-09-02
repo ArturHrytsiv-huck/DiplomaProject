@@ -10,16 +10,17 @@ public class DogController : MonoBehaviour
     [SerializeField] private float Speed;
     [SerializeField] private ColliderComponent collidersInRadius;
     [SerializeField] private AttackComponent attackComponent;
-    [SerializeField] private HealthComponent healthComponent;
+    [SerializeField] private PlayerStats healthComponent;
     
     public Transform Cam;
 
-    private bool canAttack = true;
    
     void Start()
     {
+        //healthComponent = GetComponent<PlayerStats>();
         dogAnimation = GetComponent<Animator>();
         controller = GetComponent<CharacterController>();
+        attackComponent = GetComponent<AttackComponent>();
     }
 
     // Update is called once per frame
@@ -59,7 +60,7 @@ public class DogController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && !healthComponent.IsDead)
         {
             dogAnimation.SetTrigger("Attack1");
-            StartCoroutine("TakeDamage");
+            //StartCoroutine("TakeDamage");
         }
         if (Input.GetKeyDown(KeyCode.Mouse1) && !healthComponent.IsDead)
         {
@@ -68,18 +69,6 @@ public class DogController : MonoBehaviour
 
     }
     
-    private IEnumerator TakeDamage()
-    {
-        if (canAttack)
-        {
-            canAttack = false;
-            yield return new WaitForSeconds(0.5f);
-            canAttack = true;
-            AplyDamageForAll();
-        }
-       
-        
-    }
     private void AplyDamageForAll()
     {
         List<HealthComponent> healthComponents = GetAllHealthComponents();
